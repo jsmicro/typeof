@@ -1,0 +1,27 @@
+{
+    "name": "jsmicro-typeof",
+    "version": "1.0.0",
+    "description": "Javascript Object Type Checker",
+    "main": "main.js",
+    "scripts": {
+        "test": "node test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/jsmicro/typeof.git"
+    },
+    "keywords": [
+        "type of",
+        "typeof",
+        "typeOf"
+    ],
+    "author": "Nanang Mahdaen El Agung <nanang@mahdaen.name> (http://mahdaen.name)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jsmicro/typeof/issues"
+    },
+    "homepage": "https://github.com/jsmicro/typeof#readme",
+    "devDependencies": {
+        "jsmicro-test": "^1.0.1"
+    }
+}

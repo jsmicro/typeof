@@ -1,0 +1,24 @@
+{
+    "name": "jsmicro-typeof",
+    "description": "Javascript Object Type Checker",
+    "main": "index.js",
+    "authors": [
+        "Nanang Mahdaen El Agung <nanang@mahdaen.name> (http://mahdaen.name)"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "type of",
+        "typeof",
+        "typeOf"
+    ],
+    "moduleType": [],
+    "homepage": "https://github.com/jsmicro/typeof",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "package.json",
+        "main.js"
+    ]
+}

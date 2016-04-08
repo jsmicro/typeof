@@ -1,0 +1,11 @@
+{
+	"preset": "google",
+	"validateIndentation": null,
+	"disallowSpacesInsideParentheses": null,
+	"disallowSpacesInsideObjectBrackets": null,
+	"disallowSpacesInsideArrayBrackets": null,
+	"disallowSpacesInFunctionExpression": null,
+	"disallowSpacesInAnonymousFunctionExpression": null,
+	"maximumLineLength": null,
+	"requireLineFeedAtFileEnd": null
+}
