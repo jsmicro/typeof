@@ -13,7 +13,13 @@
     }
 
     function rawTypeOf( object ) {
-        return object.constructor.typeof || toString.call(object);
+        if ( 'undefined' === typeof object ) {
+            return '[object Undefined]';
+        } else if ( object === null ) {
+            return '[object Null]';
+        } else {
+            return object.constructor.typeof || toString.call(object);
+        }
     }
 
     function registerType( name, object ) {

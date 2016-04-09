@@ -31,17 +31,27 @@ var user = new User();
 StartTest('first', 2, [ 'thrid' ]);
 
 function StartTest() {
+    // Assign test name for logging.
+    people.__jmtname__ = 'people';
+    contact.__jmtname__ = 'contact';
+    user.__jmtname__ = 'user';
+
     // Run the isString() Test.
     t(typeOf)
         .expected(people, 'people')
         .expected(contact, 'contact')
         .expected(user, 'user')
+        .expected(undefined, 'undefined')
+        .expected(null, 'null')
+        .expected(NaN, 'number')
         .expected('Test', 'string')
         .expected([], 'array')
         .expected({}, 'object')
         .expected(() => {}, 'function')
         .expected(false, 'boolean')
         .expected(new Date(), 'date')
+        .expected(t.args(arguments), 'arguments')
+        .unexpected({}, 'people')
         .unexpected(new Date(), 'string')
         .queue(true);
 }
