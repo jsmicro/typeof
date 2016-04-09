@@ -1,5 +1,6 @@
 {
     "name": "jsmicro-typeof",
+    "version": "1.0.1",
     "description": "Javascript Object Type Checker",
     "main": "index.js",
     "authors": [

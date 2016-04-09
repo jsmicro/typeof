@@ -1,6 +1,6 @@
 {
     "name": "jsmicro-typeof",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Javascript Object Type Checker",
     "main": "main.js",
     "scripts": {
@@ -22,9 +22,6 @@
     },
     "homepage": "https://github.com/jsmicro/typeof#readme",
     "devDependencies": {
-        "jsmicro-test": "^1.0.1"
-    },
-    "dependencies": {
         "jsmicro-test": "^1.0.2"
     }
 }

@@ -106,6 +106,10 @@ Get raw type of javascript objects. While the `typeOf()` return a single string 
 
 ## Changelog
 
+#### **`v1.0.1 - Apr 9, 2016`**
+
+*   Move node dependency to dev-dependency.
+
 #### **`v1.0.0 - Apr 8, 2016`**
 
 *   Initial commit and release.
