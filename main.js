@@ -4,10 +4,13 @@ if ( !global.hasOwnProperty('typeOf') ) {
     global.typeOf = typeOf;
 }
 
-module.exports = { typeOf };
+module.exports = typeOf;
 
 typeOf.add = registerType;
 typeOf.raw = rawTypeOf;
+
+// @deprecated! Will be removed on the next release.
+typeOf.typeOf = typeOf;
 
 function typeOf( object ) {
     return rawTypeOf(object).replace(/(\[object\s)|(\])/g, '').toLocaleLowerCase();

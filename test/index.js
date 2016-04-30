@@ -1,6 +1,6 @@
 'use strict';
 
-require('../main');
+var typeOf = require('../main');
 
 var t = require('jsmicro-test');
 
