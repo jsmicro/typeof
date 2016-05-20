@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-undef": "off",
+        "prefer-spread": "error",
+        "prefer-template": "warn"
+    }
+}

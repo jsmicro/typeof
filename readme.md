@@ -106,6 +106,11 @@ Get raw type of javascript objects. While the `typeOf()` return a single string 
 
 ## Changelog
 
+#### **`v1.0.3 - May 21, 2016`**
+
+* Removed { `typeOf` } from the require result.
+* Added .npmignore
+
 #### **`v1.0.2 - May 1, 2016`**
 
 *   Require to the module will return the module instead { `typeOf` }. The { `typeOf` } will be removed on the next release. The global `typeOf` will still available.

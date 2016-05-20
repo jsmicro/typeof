@@ -1,29 +1,29 @@
-(function () {
+(function() {
     'use strict';
 
-    if ( !window.hasOwnProperty('typeOf') ) {
+    if (!window.hasOwnProperty('typeOf')) {
         window.typeOf = typeOf;
     }
 
     typeOf.add = registerType;
     typeOf.raw = rawTypeOf;
 
-    function typeOf( object ) {
+    function typeOf(object) {
         return rawTypeOf(object).replace(/(\[object\s)|(\])/g, '').toLocaleLowerCase();
     }
 
-    function rawTypeOf( object ) {
-        if ( 'undefined' === typeof object ) {
+    function rawTypeOf(object) {
+        if ('undefined' === typeof object) {
             return '[object Undefined]';
-        } else if ( object === null ) {
+        } else if (object === null) {
             return '[object Null]';
         } else {
             return object.constructor.typeof || toString.call(object);
         }
     }
 
-    function registerType( name, object ) {
-        if ( 'string' === typeof name && 'undefined' !== typeof object ) {
+    function registerType(name, object) {
+        if ('string' === typeof name && 'undefined' !== typeof object) {
             object.constructor.typeof = '[object ' + name + ']';
         }
     }

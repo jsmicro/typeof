@@ -1,11 +1,9 @@
 {
-	"preset": "google",
-	"validateIndentation": null,
-	"disallowSpacesInsideParentheses": null,
-	"disallowSpacesInsideObjectBrackets": null,
-	"disallowSpacesInsideArrayBrackets": null,
-	"disallowSpacesInFunctionExpression": null,
-	"disallowSpacesInAnonymousFunctionExpression": null,
-	"maximumLineLength": null,
-	"requireLineFeedAtFileEnd": null
+    "preset": "google",
+    "validateIndentation": 4,
+    "requireCurlyBraces": null,
+    "maximumLineLength": null,
+    "disallowTrailingWhitespace": null,
+    "requireCamelCaseOrUpperCaseIdentifiers": null,
+    "requireSemicolons": null
 }
