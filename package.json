@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/jsmicro/typeof#readme",
   "devDependencies": {
-    "jsmicro-test": "^1.0.2"
+    "@jsmicro/test": "^1.0.2"
   }
 }
