@@ -11,7 +11,7 @@ bower install --save jsmicro-typeof
 ```
 
 ```bash
-npm install --save jsmicro-typeof
+npm install --save @jsmicro/typeof
 ```
 
 ***
@@ -43,12 +43,12 @@ console.log(typeOf(john)); // people
 
 ***
 
-For NodeJS usage, simply load the `jsmicro-typeof` module and `typeOf` will available on `global`. Example:
+For NodeJS usage, simply load the `@jsmicro/typeof` module and `typeOf` will available on `global`. Example:
 
 ```js
 'use strict';
 
-require('jsmicro-typeof');
+require('@jsmicro/typeof');
 
 // Create a class and register the object type.
 class People {

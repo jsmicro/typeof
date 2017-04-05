@@ -1,5 +1,5 @@
 {
-    "name": "jsmicro-typeof",
+    "name": "@jsmicro/typeof",
     "version": "1.0.3",
     "description": "Javascript Object Type Checker",
     "main": "main.js",
