@@ -25,6 +25,6 @@ function rawTypeOf(object) {
 
 function registerType(name, object) {
     if ('string' === typeof name && 'undefined' !== typeof object) {
-        object.constructor.typeof = `[object ${name}]`;
+        object.constructor.typeof = '[object ' + name + ']';
     }
 }
